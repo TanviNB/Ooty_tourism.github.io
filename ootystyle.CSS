@@ -1,0 +1,251 @@
+/* CSS reset  */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Css variables */
+:root{
+    --navbar-height: 60px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* logo and image  */
+#logo {
+    margin: 10px 35px;
+}
+
+#logo img{
+    margin: 3px 5px;
+    width: 100px;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* HOME SECTION  */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    background: url("ooty.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.99;
+}
+
+/* utility class */
+.hp{
+    font-size: 3.8rem;
+    padding: 20px 12px;
+}
+
+.hs{
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.center{
+    text-align: center;
+}
+
+#home h1{
+    color: black;
+    text-align: center;
+    color: white;
+    font-family: 'Satisfy', cursive;
+}
+
+#home p{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn{
+    padding: 6px 10px;
+    border: 2px solid black;
+    background-color: #005f69;
+    color: white;
+    margin: 7px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#intro h3{
+    padding: 50px;
+}
+
+#intro img{
+    display: block;
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+}
+
+#container{
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#container h3{
+    font-size: 40px;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+    color: #005f69;
+
+}
+
+#container p{
+    font-size: 20px;
+    justify-content: center;
+}
+
+footer{
+    background-color: #005f69;
+    color:black;
+    padding: 9px 20px;
+}
+
+.defaultfooter{
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 20px;
+}
+
+.para{
+    padding: 20px;
+}
+
+footer ul{
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+footer ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+footer ul li a{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+ 
+  }
+
+  .fa-instagram {
+    background: #8a3ab9 ;
+    color: white;
+
+ 
+  }
+  .fa-linkedin {
+    background: #0e76a8  ;
+    color: white;
+
+ 
+  }
+
+.center{
+    background-color: black;
+    color: white;
+}
